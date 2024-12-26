@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=" viewport" content="with=device-width, initial-scale=1.0">
+    <title>Zhejiang Normal University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"> <img src="images/logo2.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div >
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>An Excellent University in China</h1>
+    <p>Located in the Zhejiang-JinHua.
+    A big, beautiful University is in the process of progress.<br> 
+    励学励行 维实维新</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<!-- course -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Undergraduate Program</h3>
+            <p> Explore a wide range of disciplines from education to the sciences, arts, and humanities.
+             Our undergraduate programs offer a solid foundation for your career and personal development.</p>
+        </div>
+        
+        <div class="course-col">
+            <h3>Graduate Programs</h3>
+            <p>Deepen your knowledge and expertise through advanced coursework and research opportunities.
+            Our graduate programs prepare you for leadership roles in your field with rigorous academic training.</p>
+
+        </div>
+
+        <div class="course-col">
+            <h3>Certificate and Short Courses</h3>
+            <p> Enhance your skills and credentials with targeted certificate programs and short courses designed for professionals and lifelong learners.
+            Gain new insights and knowledge in a flexible and convenient format.</p>
+        </div>
+    </div>
+</section>
+
+<!-- campus -->
+<section class="campus">
+    <h1>Our School Campus</h1>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/library.jpg">
+            <div class="layer">
+                <h3>Library</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/building2.jpg">
+            <div class="layer">
+                <h3>Building</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/grassground.jpg">
+            <div class="layer">
+                <h3>Lawn</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- testimonials -->
+ <section class="testimonials">
+    <h1>What Our Students Says</h1>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="images/person1.png">
+            <div>
+                <p>Zhejiang Normal University has a fantastic education system.
+                     The teachers are very supportive, and the campus is beautiful."</p>
+                <h3>Student 1</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+
+        <div class="testimonials-col">
+            <img src="images/person2.png">
+            <div>
+                <p>I love the diverse culture at Zhejiang Normal University. 
+                    It's a great place to meet people from different backgrounds.</p>
+                <h3>Student 2</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- call to action -->
+ <section class="cta">
+    <h1>Enroll For Our Various Online Course Now</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>"
+ </section>
+
+<!-- footer -->
+ <section class="footer"> 
+    <h4>About Us</h4>
+    <div class="icons">
+        <i class="fas fa-phone-square"></i>
+        <i class="fas fa-envelope"></i>
+        <i class="fab fa-weixin"></i>
+    </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript for menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+
+</script>
+
+
+
+</body>
+</html>

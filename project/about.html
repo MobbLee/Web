@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=" viewport" content="with=device-width, initial-scale=1.0">
+    <title>Zhejiang Normal University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"> <img src="images/logo2.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div >
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+
+</section>
+
+<!-- about us content -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Welcome to Zhejiang Normal University!</h1>
+            <p>Zhejiang Normal University excels in academics, teaching innovation, and campus life. 
+            Our dedicated faculty nurtures future leaders, emphasizing research and community engagement for a positive societal impact.</p>
+            <a href="https://www.zjnu.edu.cn/english/main.htm" class="hero-btn red-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="images/school.jpg">
+        </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!-- footer -->
+ <section class="footer"> 
+    <h4>About Us</h4>
+    <div class="icons">
+        <i class="fas fa-phone-square"></i>
+        <i class="fas fa-envelope"></i>
+        <i class="fab fa-weixin"></i>
+    </div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- javascript for menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+
+</script>
+
+
+
+</body>
+</html>
